@@ -492,7 +492,7 @@ export class WorkflowRepository extends Repository<WorkflowEntity> {
 
 		workflows.forEach((workflow) => {
 			if (workflow.tags?.length) {
-				workflow.tags = workflow.tags.sort((a, b) => a.name.localeCompare(b.name));
+				workflow.tags.sort((a, b) => a.name.localeCompare(b.name));
 			}
 		});
 
@@ -513,7 +513,7 @@ export class WorkflowRepository extends Repository<WorkflowEntity> {
 
 		workflows.forEach((workflow) => {
 			if (workflow.tags?.length) {
-				workflow.tags = workflow.tags.sort((a, b) => a.name.localeCompare(b.name));
+				workflow.tags.sort((a, b) => a.name.localeCompare(b.name));
 			}
 		});
 
